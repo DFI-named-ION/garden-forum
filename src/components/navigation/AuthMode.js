@@ -21,7 +21,7 @@ export const AuthMode = (props) => {
                     </a>
                     <ul className="dropdown-menu">
                         <li>
-                            <Link to='/profile' className="dropdown-item">Профіль</Link>
+                            <Link to={`/profile/${user.id}`} className="dropdown-item">Профіль</Link>
                         </li>
                         <li>
                             <hr className="dropdown-divider"/>
